@@ -128,13 +128,14 @@ function ContactForm() {
         <label htmlFor="myCheckbox">Acconsento al trattamento dei miei dati in accordo alla vostra <a href="https://www.iubenda.com/privacy-policy/18645684" className="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy ">informativa privacy</a></label>
       </div>
 
-      <div className="submitHolder">
       <div className="recaptcha-holder">
       <ReCAPTCHA
         sitekey="6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD" // Replace with your reCAPTCHA site key
         onChange={handleRecaptchaChange}
       />
     </div>
+      <div className="submitHolder">
+
       <button type="submit" disabled={!isCheckboxChecked || submitting}>
         Invia
       </button>
