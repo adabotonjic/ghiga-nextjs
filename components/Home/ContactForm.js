@@ -34,7 +34,7 @@ function ContactForm() {
       return;
     }
 
-    await submit({ name, email, oggetto, message });
+    await submit({ name, email, oggetto, message, recaptchaValue });
     setName('');
     setEmail('');
     setOggetto('');
