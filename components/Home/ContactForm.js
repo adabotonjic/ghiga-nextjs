@@ -25,7 +25,7 @@ function ContactForm() {
     return new Promise((resolve, reject) => {
       window.grecaptcha.ready(() => {
         window.grecaptcha
-          .execute("6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD", { action: "submit" })
+          .execute("6Lf_gugoAAAAANm5wSyIJGH6xb1OHHLpKfMA0nYW", { action: "submit" })
           .then(resolve)
           .catch(reject);
       });
@@ -143,7 +143,7 @@ function ContactForm() {
         />
         <label htmlFor="myCheckbox">Acconsento al trattamento dei miei dati in accordo alla vostra <a href="https://www.iubenda.com/privacy-policy/18645684" className="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy ">informativa privacy</a></label>
       </div>
-      <div className="g-recaptcha" data-sitekey="6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD"></div>
+      <div className="g-recaptcha" data-sitekey="6Lf_gugoAAAAANm5wSyIJGH6xb1OHHLpKfMA0nYW"></div>
       <div className="submitHolder">
 
       <button type="submit" disabled={!isCheckboxChecked || submitting}>
