@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useFormspark } from "@formspark/use-formspark";
-import ReCAPTCHA from "react-google-recaptcha";
 
 const FORMSPARK_FORM_ID = "vReIQaj8";
 
@@ -16,32 +15,49 @@ function ContactForm() {
   const [privacy, setPrivacy] = useState(false);
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
-  const [recaptchaValue, setRecaptchaValue] = useState("");
-
-  const handleRecaptchaChange = (value) => {
-    setRecaptchaValue(value);
-  };
+  const [recaptchaResponse, setRecaptchaResponse] = useState("");
 
   const handleCheckboxChange = (e) => {
     setIsCheckboxChecked(e.target.checked);
   };
 
+  const handleRecaptcha = () => {
+    return new Promise((resolve, reject) => {
+      window.grecaptcha.ready(() => {
+        window.grecaptcha
+          .execute("6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD", { action: "submit" })
+          .then(resolve)
+          .catch(reject);
+      });
+    });
+  };
+
   const onSubmit = async (e) => {
     e.preventDefault();
-      // Check if reCAPTCHA value is empty
-    if (!recaptchaValue) {
-      alert("Please complete the reCAPTCHA challenge.");
-      return;
-    }
 
-    await submit({ name, email, oggetto, message, recaptchaValue });
+    // Retrieve the reCAPTCHA response token
+  try {
+    const responseToken = await handleRecaptcha();
+
+        // Now you can include the response token in your form submission
+        await submit({
+          name,
+          email,
+          oggetto,
+          message,
+          "g-recaptcha-response": responseToken,
+        });
+
+    await submit({ name, email, oggetto, message });
     setName('');
     setEmail('');
     setOggetto('');
     setMessage('');
     setPrivacy(!privacy);
-    setRecaptchaValue(""); // Reset reCAPTCHA value
     alert("Form submitted");
+  } catch (error) {
+    console.error("reCAPTCHA error:", error);
+  }
   };
 
   useEffect(() => {
@@ -127,13 +143,7 @@ function ContactForm() {
         />
         <label htmlFor="myCheckbox">Acconsento al trattamento dei miei dati in accordo alla vostra <a href="https://www.iubenda.com/privacy-policy/18645684" className="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy ">informativa privacy</a></label>
       </div>
-
-      <div className="recaptcha-holder">
-      <ReCAPTCHA
-        sitekey="6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD" // Replace with your reCAPTCHA site key
-        onChange={handleRecaptchaChange}
-      />
-    </div>
+      <div className="g-recaptcha" data-sitekey="6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD"></div>
       <div className="submitHolder">
 
       <button type="submit" disabled={!isCheckboxChecked || submitting}>

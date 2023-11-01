@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
+import {useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Layout, { siteTitle } from '../components/layout/layout';
 import ServiziHome from '../components/Home/ServiziHome';
@@ -8,6 +9,19 @@ import ChisonoHome from '../components/Home/ChisonoHome';
 import ContattiHome from '../components/Home/ContattiHome';
 
 const Home = () => {
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.google.com/recaptcha/api.js";
+    script.async = true;
+    document.head.appendChild(script);
+  
+    return () => {
+      // Clean up by removing the script when the component unmounts
+      document.head.removeChild(script);
+    };
+  }, []);
+
     return (
       <Layout home>
       <Head>
