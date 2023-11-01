@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useFormspark } from "@formspark/use-formspark";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const FORMSPARK_FORM_ID = "vReIQaj8";
 
@@ -15,18 +16,31 @@ function ContactForm() {
   const [privacy, setPrivacy] = useState(false);
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
+  const [recaptchaValue, setRecaptchaValue] = useState("");
+
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
+
   const handleCheckboxChange = (e) => {
     setIsCheckboxChecked(e.target.checked);
   };
 
   const onSubmit = async (e) => {
     e.preventDefault();
+      // Check if reCAPTCHA value is empty
+    if (!recaptchaValue) {
+      alert("Please complete the reCAPTCHA challenge.");
+      return;
+    }
+
     await submit({ name, email, oggetto, message });
     setName('');
     setEmail('');
     setOggetto('');
     setMessage('');
     setPrivacy(!privacy);
+    setRecaptchaValue(""); // Reset reCAPTCHA value
     alert("Form submitted");
   };
 
@@ -115,6 +129,12 @@ function ContactForm() {
       </div>
 
       <div className="submitHolder">
+      <div className="recaptcha-holder">
+      <ReCAPTCHA
+        sitekey="6LdjPegoAAAAAI4bJMQ_IjIPjtsbTKYdKB-v-lsD" // Replace with your reCAPTCHA site key
+        onChange={handleRecaptchaChange}
+      />
+    </div>
       <button type="submit" disabled={!isCheckboxChecked || submitting}>
         Invia
       </button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Script from 'next/script';
 import 'bootstrap/dist/css/bootstrap.css';
 import Layout, { siteTitle } from '../components/layout/layout';
 import ServiziHome from '../components/Home/ServiziHome';
@@ -11,7 +12,10 @@ const Home = () => {
       <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        {/*<Script src="https://www.google.com/recaptcha/api.js" async defer />*/}
+
       </Head>
+  
 
      <main>
         <div className='home-page'>
@@ -32,6 +36,7 @@ const Home = () => {
         </div>
         </main>
         <footer></footer>
+ 
         </Layout>
       );
 };
