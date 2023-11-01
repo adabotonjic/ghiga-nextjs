@@ -1,7 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/privacy-cookie-policy": "pages/privacy-cookie-policy.js"
-}
+{"/_error":"pages/_error.js","/_app":"pages/_app.js","/Home":"pages/Home.html","/privacy-cookie-policy":"pages/privacy-cookie-policy.html","/servizi/conversioni-serrature-e-porte-blindate":"pages/servizi/conversioni-serrature-e-porte-blindate.html","/":"pages/index.html","/servizi":"pages/servizi.html","/servizi/fornitura-e-installazioni-zanzariere":"pages/servizi/fornitura-e-installazioni-zanzariere.html","/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali":"pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali.html","/servizi/sostituzione-serrature-di-tutti-i-tipi":"pages/servizi/sostituzione-serrature-di-tutti-i-tipi.html","/_document":"pages/_document.js","/404":"pages/404.html"}

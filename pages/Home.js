@@ -1,10 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Figure from 'react-bootstrap/Figure';
-import furgone from '../components/img/Furgone.webp';
-import ServiziHome from './ServiziHome';
-import ChisonoHome from './ChisonoHome';
-import ContattiHome from './ContattiHome';
+import ServiziHome from '../components/Home/ServiziHome';
+import ChisonoHome from '../components/Home/ChisonoHome';
+import ContattiHome from '../components/Home/ContattiHome';
 
 const Home = () => {
     return (
@@ -17,7 +16,7 @@ const Home = () => {
                 width={697}
                 height={500}
                 alt="Ghirardelli furgone"
-                src={furgone}
+                src='../images/Furgone.webp'
             />
 
             </Figure>
