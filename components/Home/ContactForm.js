@@ -14,8 +14,21 @@ function ContactForm() {
   const [message, setMessage] = useState("");
   const [privacy, setPrivacy] = useState(false);
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
-
   const [recaptchaResponse, setRecaptchaResponse] = useState("");
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.google.com/recaptcha/api.js";
+    script.async = true;
+    document.head.appendChild(script);
+  
+    return () => {
+      // Clean up by removing the script when the component unmounts
+      document.head.removeChild(script);
+    };
+  }, []);
+
+
 
   const handleCheckboxChange = (e) => {
     setIsCheckboxChecked(e.target.checked);
@@ -36,28 +49,28 @@ function ContactForm() {
     e.preventDefault();
 
     // Retrieve the reCAPTCHA response token
-  try {
-    const responseToken = await handleRecaptcha();
+    try {
+      const responseToken = await handleRecaptcha();
 
-        // Now you can include the response token in your form submission
-        await submit({
-          name,
-          email,
-          oggetto,
-          message,
-          "g-recaptcha-response": responseToken,
-        });
+          // Now you can include the response token in your form submission
+          await submit({
+            name,
+            email,
+            oggetto,
+            message,
+            "g-recaptcha-response": responseToken,
+          });
 
-    await submit({ name, email, oggetto, message });
-    setName('');
-    setEmail('');
-    setOggetto('');
-    setMessage('');
-    setPrivacy(!privacy);
-    alert("Form submitted");
-  } catch (error) {
-    console.error("reCAPTCHA error:", error);
-  }
+      await submit({ name, email, oggetto, message });
+      setName('');
+      setEmail('');
+      setOggetto('');
+      setMessage('');
+      setPrivacy(!privacy);
+      alert("Form submitted");
+    } catch (error) {
+      console.error("reCAPTCHA error:", error);
+    }
   };
 
   useEffect(() => {

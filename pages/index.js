@@ -10,18 +10,6 @@ import ContattiHome from '../components/Home/ContattiHome';
 
 const Home = () => {
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.google.com/recaptcha/api.js";
-    script.async = true;
-    document.head.appendChild(script);
-  
-    return () => {
-      // Clean up by removing the script when the component unmounts
-      document.head.removeChild(script);
-    };
-  }, []);
-
     return (
       <Layout home>
       <Head>
