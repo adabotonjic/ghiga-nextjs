@@ -33,7 +33,9 @@ export default function Layout({ children, home }) {
         <meta name="twitter:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
         <meta name="twitter:title" content={siteTitle} />
 
-     
+        <link rel="preconnect" href="https://www.google.com" />
+        <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
+        <script async src="https://www.google.com/recaptcha/api.js" />
         
       </Head>
       <Script

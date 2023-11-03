@@ -14,7 +14,6 @@ const Home = () => {
       <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        {/*<Script src="https://www.google.com/recaptcha/api.js" async defer />*/}
 
       </Head>
   
