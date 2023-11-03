@@ -39,7 +39,7 @@ const PrivacyCookiePolicy = () => {
         <div className='row'>
 
        <Link
-        href="https://www.iubenda.com/privacy-policy/87203035"
+        href="https://www.iubenda.com/privacy-policy/18645684"
         className="iubenda-nostyle no-brand iubenda-embed iub-body-embed"
         title="Privacy Policy"
       >
