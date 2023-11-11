@@ -2,7 +2,7 @@ import React, { useState, useEffect /*, useRef*/ } from "react";
 import { useFormspark } from "@formspark/use-formspark";
 //import ReCAPTCHA from "react-google-recaptcha";
 
-const FORMSPARK_FORM_ID = "vReIQaj8";
+const FORMSPARK_FORM_ID = "2IYJPIRfA";
 /*const RECAPTCHA_SITE_KEY = "6LduougoAAAAAJXJZUrwQHB366src_OS0mNS333_"; // Sostituisci con la tua chiave del sito reCAPTCHA*/
 
 function ContactForm() {
