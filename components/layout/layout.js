@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Script from 'next/script';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const siteTitle = 'Ghirardelli Nicola - Porte blindate, Serrature, Basculanti';
 
@@ -37,7 +38,9 @@ export default function Layout({ children }) {
         <link rel="preconnect" href="https://www.gstatic.com" crossOrigin />
         
       </Head>
-      <Script
+
+      <GoogleTagManager gtmId="GTM-NK9CVTXJ" />
+      {/*<Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
             __html: `
@@ -51,7 +54,7 @@ export default function Layout({ children }) {
       />
 
       <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK9CVTXJ"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>*/}
     <Header />
       <main>{children}</main>
     <Footer />
