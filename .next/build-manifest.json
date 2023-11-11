@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/hQQwQPNDQsClywTvuTPGx/_buildManifest.js",
-    "static/hQQwQPNDQsClywTvuTPGx/_ssgManifest.js"
+    "static/_qrhzc7lkHsK8vg6SzNCa/_buildManifest.js",
+    "static/_qrhzc7lkHsK8vg6SzNCa/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,9 +16,8 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/14-fc9e073d9d95745e.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
-      "static/chunks/pages/index-df099d98be3f72ae.js"
+      "static/chunks/530-944f6170665ebc30.js",
+      "static/chunks/pages/index-81fc6a4dcf0695b7.js"
     ],
     "/_app": [
       "static/chunks/webpack-d5d50f84e9aab5c4.js",
@@ -39,7 +38,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/privacy-cookie-policy-dca9f9a49eda99c4.js"
     ],
     "/servizi": [
@@ -48,7 +47,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/servizi-ba0cfb0bf5fcb5cc.js"
     ],
     "/servizi/conversioni-serrature-e-porte-blindate": [
@@ -57,7 +56,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/servizi/conversioni-serrature-e-porte-blindate-4c719ab72494cd5e.js"
     ],
     "/servizi/fornitura-e-installazioni-zanzariere": [
@@ -66,7 +65,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/servizi/fornitura-e-installazioni-zanzariere-1dce2927b1f762d2.js"
     ],
     "/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali": [
@@ -75,7 +74,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali-4c29724d2aa6e6a7.js"
     ],
     "/servizi/sostituzione-serrature-di-tutti-i-tipi": [
@@ -84,7 +83,7 @@
       "static/chunks/main-ccb8a7a0c5e3016d.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/549-8be6dda67df48ed7.js",
-      "static/chunks/530-2d991a32adbfd3b8.js",
+      "static/chunks/530-944f6170665ebc30.js",
       "static/chunks/pages/servizi/sostituzione-serrature-di-tutti-i-tipi-717291112e82559c.js"
     ]
   },

@@ -6,7 +6,7 @@ import Script from 'next/script';
 
 export const siteTitle = 'Ghirardelli Nicola - Porte blindate, Serrature, Basculanti';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div>
       <Head>
@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content="https://mionsolutions.it/images/mion-logo.png"
+          content="https://ghirarfellinicola.it/images/furgone.webp"
         />
         <meta property="og:locale" content="it_IT" />
         <meta name="og:title" content={siteTitle} />
@@ -34,8 +34,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:title" content={siteTitle} />
 
         <link rel="preconnect" href="https://www.google.com" />
-        <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
-        <script async src="https://www.google.com/recaptcha/api.js" />
+        <link rel="preconnect" href="https://www.gstatic.com" crossOrigin />
         
       </Head>
       <Script
@@ -54,7 +53,6 @@ export default function Layout({ children, home }) {
       <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK9CVTXJ"
       height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
     <Header />
-
       <main>{children}</main>
     <Footer />
     </div>

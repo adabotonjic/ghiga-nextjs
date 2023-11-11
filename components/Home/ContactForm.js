@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect /*, useRef*/ } from "react";
 import { useFormspark } from "@formspark/use-formspark";
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 
 const FORMSPARK_FORM_ID = "vReIQaj8";
-const RECAPTCHA_SITE_KEY = "6LduougoAAAAAJXJZUrwQHB366src_OS0mNS333_"; // Sostituisci con la tua chiave del sito reCAPTCHA
+/*const RECAPTCHA_SITE_KEY = "6LduougoAAAAAJXJZUrwQHB366src_OS0mNS333_"; // Sostituisci con la tua chiave del sito reCAPTCHA*/
 
 function ContactForm() {
   const [submit, submitting] = useFormspark({
@@ -17,8 +17,8 @@ function ContactForm() {
   const [privacy, setPrivacy] = useState(false);
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
-  const [recaptchaToken, setRecaptchaToken] = useState(null);
-  const recaptchaRef = useRef();
+  {/*const [recaptchaToken, setRecaptchaToken] = useState(null);
+  const recaptchaRef = useRef();*/}
 
   const handleCheckboxChange = (e) => {
     setIsCheckboxChecked(e.target.checked);
@@ -28,19 +28,19 @@ function ContactForm() {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    if (!recaptchaToken) {
+   {/* if (!recaptchaToken) {
       alert("Si prega di confermare che non sei un robot.");
       return;
-    }
+    }*/}
 
-      await submit({ name, email, oggetto, message, "g-recaptcha-response": recaptchaToken  });
+  await submit({ name, email, oggetto, message /*, "g-recaptcha-response": recaptchaToken */  });
       setName('');
       setEmail('');
       setOggetto('');
       setMessage('');
       setPrivacy(!privacy);
-      recaptchaRef.current.reset(); // Reset del reCAPTCHA
-      setRecaptchaToken(null);
+      //recaptchaRef.current.reset(); // Reset del reCAPTCHA
+      //setRecaptchaToken(null);
       alert("Form submitted");
     
   };
@@ -129,13 +129,13 @@ function ContactForm() {
         <label htmlFor="myCheckbox">Acconsento al trattamento dei miei dati in accordo alla vostra <a href="https://www.iubenda.com/privacy-policy/18645684" className="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy ">informativa privacy</a></label>
       </div>
 
-      <div className="recaptchaHolder">
+      {/*<div className="recaptchaHolder">
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey={RECAPTCHA_SITE_KEY}
           onChange={setRecaptchaToken}
         />
-      </div>
+      </div>*/}
 
       <div className="submitHolder">
 
