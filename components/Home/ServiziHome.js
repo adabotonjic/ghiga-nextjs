@@ -38,9 +38,9 @@ function ServiziHome() {
                       </figure>
                 </a>
                 <h3 className="text-uppercase px-md-5 px-xl-0 mb-xl-4 fw-bold">{subPageId.alt}</h3>
-                <Link className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-3 mb-5 mx-auto" href={`./${subPageId.url}`}>
+                <a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-3 mb-5 mx-auto" href={`./${subPageId.url}`}>
                   Scopri di più
-                </Link>
+                </a>
               </div>
             ))}
           </div>
