@@ -64,7 +64,7 @@ function TopHeader() {
             </div>
         </div>
         <div className='container'>
-            <figure className='logo mb-0 figure'>
+            <a href="/" title="Home"><figure className='logo mb-0 figure'>
             <img
             className='mx-auto w-100 mb-0'
                 width={1340}
@@ -74,7 +74,7 @@ function TopHeader() {
 
             />
 
-            </figure>
+            </figure></a>
         </div>
        
   </div>

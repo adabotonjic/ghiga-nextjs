@@ -39,7 +39,7 @@ function ContattiHome() {
                     </div>
                 </div>
                 <div className="row align-items-center mt-3">
-                    <div className='col-12'>
+                    <div className='col-12' id="chiedi-preventivo">
                         <h2 className='my-5'>Chiedi preventivo</h2>
                         <ContactForm />
                     </div>
