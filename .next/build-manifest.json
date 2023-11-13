@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/aX7QQjozP8cUQHa77WWjP/_buildManifest.js",
-    "static/aX7QQjozP8cUQHa77WWjP/_ssgManifest.js"
+    "static/bxqR3uzDXPUDEiD2cfA8n/_buildManifest.js",
+    "static/bxqR3uzDXPUDEiD2cfA8n/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,15 +15,25 @@
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/index-511acd64224826c3.js"
+      "static/chunks/pages/index-769e17e091c84e5e.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-6b66f1e433cc1490.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-019cfb844d40c6ed.js",
+      "static/css/cc6cbf47a7d40733.css",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/530-efcb69a5b60a7df8.js",
+      "static/chunks/pages/404-ce9ef63ab1567c6e.js"
     ],
     "/_app": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
-      "static/css/7cebf5f209434b12.css",
+      "static/css/8f649e0df13cf215.css",
       "static/chunks/pages/_app-25345a12794bca3a.js"
     ],
     "/_error": [
@@ -37,54 +47,60 @@
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/privacy-cookie-policy-9612969074840c06.js"
+      "static/chunks/pages/privacy-cookie-policy-59801630d42bc0e4.js"
     ],
     "/servizi": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/servizi-a9cf641639cbe0eb.js"
+      "static/chunks/pages/servizi-0064ffa817a5025a.js"
     ],
     "/servizi/conversioni-serrature-e-porte-blindate": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/servizi/conversioni-serrature-e-porte-blindate-87ff6b563786193a.js"
+      "static/chunks/pages/servizi/conversioni-serrature-e-porte-blindate-08cfd57d6c310641.js"
     ],
     "/servizi/fornitura-e-installazioni-zanzariere": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/servizi/fornitura-e-installazioni-zanzariere-5dae85076dc6aabe.js"
+      "static/chunks/pages/servizi/fornitura-e-installazioni-zanzariere-08932e94d4ec2f3e.js"
     ],
     "/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali-5b1ef026ffd1ef7b.js"
+      "static/chunks/pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali-d650893d9ee7c5d8.js"
     ],
     "/servizi/sostituzione-serrature-di-tutti-i-tipi": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-019cfb844d40c6ed.js",
       "static/css/cc6cbf47a7d40733.css",
-      "static/chunks/563-677f3de48def2e11.js",
+      "static/chunks/906-fe7c47f3c5ccb208.js",
+      "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-efcb69a5b60a7df8.js",
-      "static/chunks/pages/servizi/sostituzione-serrature-di-tutti-i-tipi-e0bcca0e63b26756.js"
+      "static/chunks/pages/servizi/sostituzione-serrature-di-tutti-i-tipi-270a9f10a24a492d.js"
     ]
   },
   "ampFirstPages": []
