@@ -27,7 +27,7 @@ function ServiziHome() {
             <div className="row align-items-center">
             {subPageList.map((subPageId) => (
                 <div className="col-sm-6 col-xl-3 text-center p-lg-4 mb-3" key={subPageId.alt}>
-                <Link href={`./${subPageId.url}`}>
+                <a href={`./${subPageId.url}`}>
                     <figure className="service-item  mb-3 mb-xl-4  figure">
                       <img className='mx-auto w-100 mb-0'
                         width={subPageId.width}
@@ -36,7 +36,7 @@ function ServiziHome() {
                         src={subPageId.src}
                         loading="lazy" />
                       </figure>
-                </Link>
+                </a>
                 <h3 className="text-uppercase px-md-5 px-xl-0 mb-xl-4 fw-bold">{subPageId.alt}</h3>
                 <Link className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-3 mb-5 mx-auto" href={`./${subPageId.url}`}>
                   Scopri di più
