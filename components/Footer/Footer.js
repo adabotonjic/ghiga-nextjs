@@ -12,7 +12,7 @@ function Footer() {
                   width='100%'
                   height='100%'
                   alt='Footer logo'
-                  src='../images/footer-logo.png'
+                  src='/images/footer-logo.png'
                   loading="lazy"
               />
               </figure>

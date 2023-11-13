@@ -70,7 +70,7 @@ function TopHeader() {
                 width={1340}
                 height={199}
                 alt="Ghirardelli Logo"
-                src="../images/HeaderGhiga.webp"
+                src="/images/HeaderGhiga.webp"
 
             />
 
