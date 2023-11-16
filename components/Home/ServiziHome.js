@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 function ServiziHome() {
   const subPageList = [
-    { src: '../images/conversioni.webp', alt: 'Conversioni serrature porte blindate', width: '400', height:'400', url:'servizi/conversioni-serrature-e-porte-blindate' },
-    { src: './images/zanzariera.webp', alt: 'Fornitura e installazioni zanzariere', width: '400', height:'400', url:'servizi/fornitura-e-installazioni-zanzariere' },
+    { src: '../images/conversioni.webp', alt: 'Conversioni serrature porte blindate', width: '400', height:'400', url:'servizi/conversioni-serrature-porte-blindate' },
+    { src: './images/zanzariera.webp', alt: 'Fornitura e installazioni zanzariere', width: '400', height:'400', url:'servizi/fornitura-e-installazione-zanzariere' },
     { src: './images/riparazioni.webp', alt: 'Riparazioni, sostituzioni basculanti e sezionali', width: '400', height:'400', url:'servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali' },
-    { src: './images/lucchetto.webp', alt: 'Sostituzione serrature di tutti i tipi', width: '400', height:'400', url:'servizi/sostituzione-serrature-di-tutti-i-tipi' },
+    { src: './images/lucchetto.webp', alt: 'Sostituzione serrature di tutti i tipi', width: '400', height:'400', url:'servizi/sostituzioni-serrature-di-tutti-i-tipi' },
   ];
 
   return (
