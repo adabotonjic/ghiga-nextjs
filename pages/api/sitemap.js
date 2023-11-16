@@ -7,13 +7,14 @@ const parentPages = [
   { name: 'servizi'},
   { name: 'privacy-policy'},
   { name: 'cookie-policy'},
+  { name: 'contatti'},
 ];
 
 const childrenServizi = [
-  { slug: 'conversioni-serrature-e-porte-blindate'},
-  { slug: 'fornitura-e-installazioni-zanzariere'},
+  { slug: 'conversioni-serrature-porte-blindate'},
+  { slug: 'fornitura-e-installazione-zanzariere'},
   { slug: 'riparazioni-e-sostituzioni-basculanti-e-sezionali'},
-  { slug: 'sostituzione-serrature-di-tutti-i-tipi' },
+  { slug: 'sostituzioni-serrature-di-tutti-i-tipi' },
 ];
 
 export default function handler(req, res) {
@@ -59,6 +60,10 @@ export default function handler(req, res) {
         <loc>${URL}/${parentPages[2].name}</loc>
         <lastmod>${lastModified}</lastmod>
       </url>
+      <url>
+      <loc>${URL}/${parentPages[3].name}</loc>
+      <lastmod>${lastModified}</lastmod>
+    </url>
   
       </urlset>`
   

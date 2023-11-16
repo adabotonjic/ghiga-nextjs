@@ -20,10 +20,10 @@ function Header() {
   ];
   const menuSubItems = [
     { path: '/servizi', text: 'Tutti i servizi' },
-    { path: '/servizi/conversioni-serrature-e-porte-blindate', text: 'Conversioni serrature porte blindate' },
-    { path: '/servizi/fornitura-e-installazioni-zanzariere', text: 'Fornitura e installazioni zanzariere' },
+    { path: '/servizi/conversioni-serrature-porte-blindate', text: 'Conversioni serrature porte blindate' },
+    { path: '/servizi/fornitura-e-installazione-zanzariere', text: 'Fornitura e installazione zanzariere' },
     { path: '/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali', text: 'Riparazioni e sostituzioni basculanti e sezionali' },
-    { path: '/servizi/sostituzione-serrature-di-tutti-i-tipi', text: 'Sostituzione serrature di tutti i tipi' },
+    { path: '/servizi/sostituzioni-serrature-di-tutti-i-tipi', text: 'Sostituzione serrature di tutti i tipi' },
 
   ];
 

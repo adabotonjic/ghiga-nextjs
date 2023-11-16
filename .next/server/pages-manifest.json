@@ -1,11 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/servizi": "pages/servizi.js",
-  "/servizi/fornitura-e-installazioni-zanzariere": "pages/servizi/fornitura-e-installazioni-zanzariere.js",
-  "/404": "pages/404.js",
-  "/servizi/conversioni-serrature-e-porte-blindate": "pages/servizi/conversioni-serrature-e-porte-blindate.js",
-  "/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali": "pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali.js"
-}
+{"/_error":"pages/_error.js","/_app":"pages/_app.js","/api/sitemap":"pages/api/sitemap.js","/_document":"pages/_document.js","/it/500":"pages/it/500.html","/it/privacy-cookie-policy":"pages/it/privacy-cookie-policy.html","/it/404":"pages/it/404.html","/it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali":"pages/it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali.html","/it/servizi/sostituzioni-serrature-di-tutti-i-tipi":"pages/it/servizi/sostituzioni-serrature-di-tutti-i-tipi.html","/it":"pages/it.html","/it/servizi/fornitura-e-installazione-zanzariere":"pages/it/servizi/fornitura-e-installazione-zanzariere.html","/it/servizi/conversioni-serrature-porte-blindate":"pages/it/servizi/conversioni-serrature-porte-blindate.html","/it/servizi":"pages/it/servizi.html","/it/contatti":"pages/it/contatti.html"}
