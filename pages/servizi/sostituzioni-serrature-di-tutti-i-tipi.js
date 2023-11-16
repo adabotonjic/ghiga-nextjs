@@ -11,6 +11,7 @@ const SostituzioniPage = () => {
     <Layout >
     <Head>
       <title>{siteTitle}</title>
+      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/sostituzioni-serrature-di-tutti-i-tipi" />
     </Head>
 
     <main className="page-sostituzioni">

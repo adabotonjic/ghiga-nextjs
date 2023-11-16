@@ -12,6 +12,7 @@ const ZanzarierePage = () => {
     <Layout >
     <Head>
       <title>{siteTitle}</title>
+      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/fornitura-e-installazione-zanzariere" />
     </Head>
     <main className="page-zanzariere">
         <div className="page-title-wrap mb-0 mb-xl-3">
