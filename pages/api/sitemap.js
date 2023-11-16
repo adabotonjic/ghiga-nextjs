@@ -5,8 +5,6 @@ let date = new Date();
 const lastModified = date.toJSON();
 const parentPages = [
   { name: 'servizi'},
-  { name: 'privacy-policy'},
-  { name: 'cookie-policy'},
   { name: 'contatti'},
 ];
 
@@ -56,14 +54,6 @@ export default function handler(req, res) {
         <loc>${URL}/${parentPages[1].name}</loc>
         <lastmod>${lastModified}</lastmod>
       </url>
-      <url>
-        <loc>${URL}/${parentPages[2].name}</loc>
-        <lastmod>${lastModified}</lastmod>
-      </url>
-      <url>
-      <loc>${URL}/${parentPages[3].name}</loc>
-      <lastmod>${lastModified}</lastmod>
-    </url>
   
       </urlset>`
   
