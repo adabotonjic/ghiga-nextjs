@@ -34,7 +34,7 @@ const SostituzioniPage = () => {
                   width='100%'
                   height='100%'
                   alt='Conversioni'
-                  src='../images/marche-serrature.webp'
+                  src='/images/marche-serrature.webp'
                   loading="lazy"
               />
               </Figure>

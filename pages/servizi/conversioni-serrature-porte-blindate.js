@@ -32,7 +32,7 @@ const ConversioniSerraturePage = () => {
                   width='100%'
                   height='100%'
                   alt='Conversioni'
-                  src='../images/conversioni1.webp'
+                  src='/images/conversioni1.webp'
                   loading="lazy"
               />
               </Figure>

@@ -36,7 +36,7 @@ const ZanzarierePage = () => {
                       width='100%'
                       height='100%'
                       alt='Zanzariera'
-                      src='../images/zanzariera11.webp'
+                      src='/images/zanzariera11.webp'
                       loading="lazy"
                   />
                   </Figure>
@@ -48,7 +48,7 @@ const ZanzarierePage = () => {
                       width='100%'
                       height='100%'
                       alt='Zanzariera'
-                      src='../images/zanzariera21.webp'
+                      src='/images/zanzariera21.webp'
                       loading="lazy"
                   />
                   </Figure>
@@ -60,7 +60,7 @@ const ZanzarierePage = () => {
                       width='100%'
                       height='100%'
                       alt='Zanzariera'
-                      src='../images/zanzariera31.webp'
+                      src='/images/zanzariera31.webp'
                       loading="lazy"
                   />
                   </Figure>
@@ -69,7 +69,7 @@ const ZanzarierePage = () => {
             
             </div>
             <div className='col-lg-6'>
-            <p>Con l’installazione di <strong>zanzariere ai serramenti</strong> potrete eliminare dalla vostra abitazione la fastidiosa presenza di zanzare e altri insetti.</p>
+            <p>Con l'installazione di <strong>zanzariere ai serramenti</strong> potrete eliminare dalla vostra abitazione la fastidiosa presenza di zanzare e altri insetti.</p>
             <p><strong>Contattami per un intervento, un sopralluogo o per un preventivo,&nbsp;sarò a vostra disposizione con cordialità e professionalità.</strong></p>
 
             <p><a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-5 mb-3" href="/#chiedi-preventivo">Chiedi preventivo</a></p>
