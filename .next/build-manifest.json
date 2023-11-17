@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/p61JbHWmdTmG1QBaxBMsK/_buildManifest.js",
-    "static/p61JbHWmdTmG1QBaxBMsK/_ssgManifest.js"
+    "static/PmQp45RYPm7SUbV_yanL-/_buildManifest.js",
+    "static/PmQp45RYPm7SUbV_yanL-/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -18,7 +18,7 @@
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
       "static/chunks/530-2fcc48d9498c2df9.js",
-      "static/chunks/pages/index-550bdfa1c945bc64.js"
+      "static/chunks/pages/index-bc52cddc86518458.js"
     ],
     "/404": [
       "static/chunks/webpack-6b66f1e433cc1490.js",
@@ -49,7 +49,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/530-2fcc48d9498c2df9.js",
-      "static/chunks/pages/contatti-1449649f0c461c7e.js"
+      "static/chunks/pages/contatti-2433701101715609.js"
     ],
     "/privacy-cookie-policy": [
       "static/chunks/webpack-6b66f1e433cc1490.js",

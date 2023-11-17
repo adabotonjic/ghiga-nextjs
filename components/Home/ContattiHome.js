@@ -1,9 +1,31 @@
-import React from 'react'; 
-
+import React, { useEffect, useRef, useState } from 'react';
 import ContactForm from './ContactForm';
 
 
 function ContattiHome() {
+    const [mapLoaded, setMapLoaded] = useState(false);
+    const mapContainerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !mapLoaded) {
+                    setMapLoaded(true);
+                }
+            });
+        }, { threshold: 0.1 }); // Adjust threshold as needed
+
+        if (mapContainerRef.current) {
+            observer.observe(mapContainerRef.current);
+        }
+
+        return () => {
+            if (mapContainerRef.current) {
+                observer.unobserve(mapContainerRef.current);
+            }
+        };
+    }, [mapLoaded]);
+
     return (
         <div 
         className="contatti-section  my-4 py-3 my-xl-3 py-md-3 py-xl-5"
@@ -33,8 +55,17 @@ function ContattiHome() {
                         </div>
                     </div>
                     </div>
-                    <div className='col-lg-6 ps-lg-5'>
-                    <iframe title="provincia-map" loading="lazy" style={{border: '0'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357096.3182922142!2d11.20515927307625!3d45.634452902968285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778cad6a732b9e9%3A0x307098715907ee0!2sProvince+of+Vicenza!5e0!3m2!1sen!2sit!4v1521383198123" width="100%" height="450"></iframe>
+                    <div ref={mapContainerRef}  className='col-lg-6 ps-lg-5'>
+                    {mapLoaded && (
+                    <iframe
+                        title="provincia-map"
+                        loading="lazy"
+                        style={{ border: '0' }}
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357096.3182922142!2d11.20515927307625!3d45.634452902968285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778cad6a732b9e9%3A0x307098715907ee0!2sProvince+of+Vicenza!5e0!3m2!1sen!2sit!4v1521383198123"
+                        width="100%"
+                        height="450"
+                    ></iframe>
+                )}
 
                     </div>
                 </div>
