@@ -47,7 +47,7 @@ const RiparazioniPage = () => {
                       width='100%'
                       height='100%'
                       alt='Riprazioni basculanti'
-                      src='../images/Basculante2.webp'
+                      src='/images/Basculante2.webp'
                       loading="lazy"
                   />
                   </Figure>
