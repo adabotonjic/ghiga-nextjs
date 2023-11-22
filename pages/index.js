@@ -14,7 +14,7 @@ const Home = () => {
       <Layout home>
       <Head>
         <title>{siteTitle}</title>
-
+        <link rel="canonical" href="https://www.ghirardellinicola.it/" />
       </Head>
   
 

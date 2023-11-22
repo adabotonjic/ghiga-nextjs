@@ -9,6 +9,7 @@ function Contatti() {
         <Layout>
             <Head>
                 <title>{siteTitle}</title>
+                <link rel="canonical" href="https://www.ghirardellinicola.it/contatti/" />
 
             </Head>
             <main className="page-contatti">

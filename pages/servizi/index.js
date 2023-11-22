@@ -18,6 +18,7 @@ function Servizi() {
     <Layout >
     <Head>
       <title>{siteTitle}</title>
+      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/" />
     </Head>
     <main>
         <div className="page-title-wrap">

@@ -1,32 +1,56 @@
-"use strict";(()=>{var e={};e.id=290,e.ids=[290],e.modules={145:e=>{e.exports=require("next/dist/compiled/next-server/pages-api.runtime.prod.js")},31:(e,l,a)=>{a.r(l),a.d(l,{config:()=>p,default:()=>c,routeModule:()=>$});var t={};a.r(t),a.d(t,{default:()=>handler});var s=a(1802),o=a(7153),r=a(6249);let i="https://www.ghirardellinicola.it",n=new Date,u=n.toJSON(),d=[{name:"servizi"},{name:"contatti"}],m=[{slug:"conversioni-serrature-porte-blindate"},{slug:"fornitura-e-installazione-zanzariere"},{slug:"riparazioni-e-sostituzioni-basculanti-e-sezionali"},{slug:"sostituzioni-serrature-di-tutti-i-tipi"}];function handler(e,l){l.statusCode=200,l.setHeader("Content-Type","text/xml"),l.setHeader("Cache-control","stale-while-revalidate, s-maxage=3600");let a=`<?xml version="1.0" encoding="UTF-8"?>
-      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-      <url>
-        <loc>${i}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[0].name}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[0].name}/${m[0].slug}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[0].name}/${m[1].slug}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[0].name}/${m[2].slug}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[0].name}/${m[3].slug}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-      <url>
-        <loc>${i}/${d[1].name}</loc>
-        <lastmod>${u}</lastmod>
-      </url>
-  
-      </urlset>`;l.end(a)}let c=(0,r.l)(t,"default"),p=(0,r.l)(t,"config"),$=new s.PagesAPIRouteModule({definition:{kind:o.x.PAGES_API,page:"/api/sitemap",pathname:"/api/sitemap",bundlePath:"",filename:""},userland:t})}};var l=require("../../webpack-api-runtime.js");l.C(e);var __webpack_exec__=e=>l(l.s=e),a=l.X(0,[222],()=>__webpack_exec__(31));module.exports=a})();
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/sitemap";
+exports.ids = ["pages/api/sitemap"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsitemap&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fsitemap.js&middlewareConfigBase64=e30%3D!":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsitemap&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fsitemap.js&middlewareConfigBase64=e30%3D! ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _pages_api_sitemap_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/api/sitemap.js */ \"(api)/./pages/api/sitemap.js\");\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_sitemap_js__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_sitemap_js__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/sitemap\",\n        pathname: \"/api/sitemap\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _pages_api_sitemap_js__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRnNpdGVtYXAmcHJlZmVycmVkUmVnaW9uPSZhYnNvbHV0ZVBhZ2VQYXRoPS4lMkZwYWdlcyUyRmFwaSUyRnNpdGVtYXAuanMmbWlkZGxld2FyZUNvbmZpZ0Jhc2U2ND1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQXNHO0FBQ3ZDO0FBQ0w7QUFDMUQ7QUFDbUQ7QUFDbkQ7QUFDQSxpRUFBZSx3RUFBSyxDQUFDLGtEQUFRLFlBQVksRUFBQztBQUMxQztBQUNPLGVBQWUsd0VBQUssQ0FBQyxrREFBUTtBQUNwQztBQUNPLHdCQUF3QixnSEFBbUI7QUFDbEQ7QUFDQSxjQUFjLHlFQUFTO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0wsWUFBWTtBQUNaLENBQUM7O0FBRUQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vP2NlNjAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUGFnZXNBUElSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL3BhZ2VzLWFwaS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgdXNlcmxhbmQgY29kZS5cbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIuL3BhZ2VzL2FwaS9zaXRlbWFwLmpzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGhhbmRsZXIgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBjb25maWcuXG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNBUElSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVNfQVBJLFxuICAgICAgICBwYWdlOiBcIi9hcGkvc2l0ZW1hcFwiLFxuICAgICAgICBwYXRobmFtZTogXCIvYXBpL3NpdGVtYXBcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIlxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy1hcGkuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsitemap&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fsitemap.js&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/sitemap.js":
+/*!******************************!*\
+  !*** ./pages/api/sitemap.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\nconst URL = \"https://www.ghirardellinicola.it\";\nlet date = new Date();\nconst lastModified = date.toJSON();\nconst parentPages = [\n    {\n        name: \"servizi\"\n    },\n    {\n        name: \"contatti\"\n    }\n];\nconst childrenServizi = [\n    {\n        slug: \"conversioni-serrature-porte-blindate\"\n    },\n    {\n        slug: \"fornitura-e-installazione-zanzariere\"\n    },\n    {\n        slug: \"riparazioni-e-sostituzioni-basculanti-e-sezionali\"\n    },\n    {\n        slug: \"sostituzioni-serrature-di-tutti-i-tipi\"\n    }\n];\nfunction handler(req, res) {\n    res.statusCode = 200;\n    res.setHeader(\"Content-Type\", \"text/xml\");\n    // Instructing the Vercel edge to cache the file\n    res.setHeader(\"Cache-control\", \"stale-while-revalidate, s-maxage=3600\");\n    // generate sitemap here\n    const xml = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n      <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"> \n      <url>\n        <loc>${URL}</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[0].name}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[0].name}/${childrenServizi[0].slug}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[0].name}/${childrenServizi[1].slug}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[0].name}/${childrenServizi[2].slug}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[0].name}/${childrenServizi[3].slug}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n      <url>\n        <loc>${URL}/${parentPages[1].name}/</loc>\n        <lastmod>${lastModified}</lastmod>\n      </url>\n  \n      </urlset>`;\n    res.end(xml);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvc2l0ZW1hcC5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQ0EsTUFBTUEsTUFBTTtBQUVaLElBQUlDLE9BQU8sSUFBSUM7QUFDZixNQUFNQyxlQUFlRixLQUFLRyxNQUFNO0FBQ2hDLE1BQU1DLGNBQWM7SUFDbEI7UUFBRUMsTUFBTTtJQUFTO0lBQ2pCO1FBQUVBLE1BQU07SUFBVTtDQUNuQjtBQUVELE1BQU1DLGtCQUFrQjtJQUN0QjtRQUFFQyxNQUFNO0lBQXNDO0lBQzlDO1FBQUVBLE1BQU07SUFBc0M7SUFDOUM7UUFBRUEsTUFBTTtJQUFtRDtJQUMzRDtRQUFFQSxNQUFNO0lBQXlDO0NBQ2xEO0FBRWMsU0FBU0MsUUFBUUMsR0FBRyxFQUFFQyxHQUFHO0lBRXBDQSxJQUFJQyxVQUFVLEdBQUc7SUFDakJELElBQUlFLFNBQVMsQ0FBQyxnQkFBZ0I7SUFFNUIsZ0RBQWdEO0lBQ2hERixJQUFJRSxTQUFTLENBQUMsaUJBQWlCO0lBRS9CLHdCQUF3QjtJQUN4QixNQUFNQyxNQUFNLENBQUM7OzthQUdOLEVBQUVkLElBQUk7aUJBQ0YsRUFBRUcsYUFBYTs7O2FBR25CLEVBQUVILElBQUksQ0FBQyxFQUFFSyxXQUFXLENBQUMsRUFBRSxDQUFDQyxJQUFJLENBQUM7aUJBQ3pCLEVBQUVILGFBQWE7OzthQUduQixFQUFFSCxJQUFJLENBQUMsRUFBRUssV0FBVyxDQUFDLEVBQUUsQ0FBQ0MsSUFBSSxDQUFDLENBQUMsRUFBRUMsZUFBZSxDQUFDLEVBQUUsQ0FBQ0MsSUFBSSxDQUFDO2lCQUNwRCxFQUFFTCxhQUFhOzs7YUFHbkIsRUFBRUgsSUFBSSxDQUFDLEVBQUVLLFdBQVcsQ0FBQyxFQUFFLENBQUNDLElBQUksQ0FBQyxDQUFDLEVBQUVDLGVBQWUsQ0FBQyxFQUFFLENBQUNDLElBQUksQ0FBQztpQkFDcEQsRUFBRUwsYUFBYTs7O2FBR25CLEVBQUVILElBQUksQ0FBQyxFQUFFSyxXQUFXLENBQUMsRUFBRSxDQUFDQyxJQUFJLENBQUMsQ0FBQyxFQUFFQyxlQUFlLENBQUMsRUFBRSxDQUFDQyxJQUFJLENBQUM7aUJBQ3BELEVBQUVMLGFBQWE7OzthQUduQixFQUFFSCxJQUFJLENBQUMsRUFBRUssV0FBVyxDQUFDLEVBQUUsQ0FBQ0MsSUFBSSxDQUFDLENBQUMsRUFBRUMsZUFBZSxDQUFDLEVBQUUsQ0FBQ0MsSUFBSSxDQUFDO2lCQUNwRCxFQUFFTCxhQUFhOzs7YUFHbkIsRUFBRUgsSUFBSSxDQUFDLEVBQUVLLFdBQVcsQ0FBQyxFQUFFLENBQUNDLElBQUksQ0FBQztpQkFDekIsRUFBRUgsYUFBYTs7O2VBR2pCLENBQUM7SUFFWlEsSUFBSUksR0FBRyxDQUFDRDtBQUNWIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcGFnZXMvYXBpL3NpdGVtYXAuanM/ZjA1MyJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmNvbnN0IFVSTCA9IFwiaHR0cHM6Ly93d3cuZ2hpcmFyZGVsbGluaWNvbGEuaXRcIjtcblxubGV0IGRhdGUgPSBuZXcgRGF0ZSgpO1xuY29uc3QgbGFzdE1vZGlmaWVkID0gZGF0ZS50b0pTT04oKTtcbmNvbnN0IHBhcmVudFBhZ2VzID0gW1xuICB7IG5hbWU6ICdzZXJ2aXppJ30sXG4gIHsgbmFtZTogJ2NvbnRhdHRpJ30sXG5dO1xuXG5jb25zdCBjaGlsZHJlblNlcnZpemkgPSBbXG4gIHsgc2x1ZzogJ2NvbnZlcnNpb25pLXNlcnJhdHVyZS1wb3J0ZS1ibGluZGF0ZSd9LFxuICB7IHNsdWc6ICdmb3JuaXR1cmEtZS1pbnN0YWxsYXppb25lLXphbnphcmllcmUnfSxcbiAgeyBzbHVnOiAncmlwYXJhemlvbmktZS1zb3N0aXR1emlvbmktYmFzY3VsYW50aS1lLXNlemlvbmFsaSd9LFxuICB7IHNsdWc6ICdzb3N0aXR1emlvbmktc2VycmF0dXJlLWRpLXR1dHRpLWktdGlwaScgfSxcbl07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIocmVxLCByZXMpIHtcblxuICAgIHJlcy5zdGF0dXNDb2RlID0gMjAwXG4gICAgcmVzLnNldEhlYWRlcignQ29udGVudC1UeXBlJywgJ3RleHQveG1sJylcbiAgICAgIFxuICAgICAgLy8gSW5zdHJ1Y3RpbmcgdGhlIFZlcmNlbCBlZGdlIHRvIGNhY2hlIHRoZSBmaWxlXG4gICAgICByZXMuc2V0SGVhZGVyKCdDYWNoZS1jb250cm9sJywgJ3N0YWxlLXdoaWxlLXJldmFsaWRhdGUsIHMtbWF4YWdlPTM2MDAnKVxuICAgICAgXG4gICAgICAvLyBnZW5lcmF0ZSBzaXRlbWFwIGhlcmVcbiAgICAgIGNvbnN0IHhtbCA9IGA8P3htbCB2ZXJzaW9uPVwiMS4wXCIgZW5jb2Rpbmc9XCJVVEYtOFwiPz5cbiAgICAgIDx1cmxzZXQgeG1sbnM9XCJodHRwOi8vd3d3LnNpdGVtYXBzLm9yZy9zY2hlbWFzL3NpdGVtYXAvMC45XCI+IFxuICAgICAgPHVybD5cbiAgICAgICAgPGxvYz4ke1VSTH08L2xvYz5cbiAgICAgICAgPGxhc3Rtb2Q+JHtsYXN0TW9kaWZpZWR9PC9sYXN0bW9kPlxuICAgICAgPC91cmw+XG4gICAgICA8dXJsPlxuICAgICAgICA8bG9jPiR7VVJMfS8ke3BhcmVudFBhZ2VzWzBdLm5hbWV9LzwvbG9jPlxuICAgICAgICA8bGFzdG1vZD4ke2xhc3RNb2RpZmllZH08L2xhc3Rtb2Q+XG4gICAgICA8L3VybD5cbiAgICAgIDx1cmw+XG4gICAgICAgIDxsb2M+JHtVUkx9LyR7cGFyZW50UGFnZXNbMF0ubmFtZX0vJHtjaGlsZHJlblNlcnZpemlbMF0uc2x1Z30vPC9sb2M+XG4gICAgICAgIDxsYXN0bW9kPiR7bGFzdE1vZGlmaWVkfTwvbGFzdG1vZD5cbiAgICAgIDwvdXJsPlxuICAgICAgPHVybD5cbiAgICAgICAgPGxvYz4ke1VSTH0vJHtwYXJlbnRQYWdlc1swXS5uYW1lfS8ke2NoaWxkcmVuU2Vydml6aVsxXS5zbHVnfS88L2xvYz5cbiAgICAgICAgPGxhc3Rtb2Q+JHtsYXN0TW9kaWZpZWR9PC9sYXN0bW9kPlxuICAgICAgPC91cmw+XG4gICAgICA8dXJsPlxuICAgICAgICA8bG9jPiR7VVJMfS8ke3BhcmVudFBhZ2VzWzBdLm5hbWV9LyR7Y2hpbGRyZW5TZXJ2aXppWzJdLnNsdWd9LzwvbG9jPlxuICAgICAgICA8bGFzdG1vZD4ke2xhc3RNb2RpZmllZH08L2xhc3Rtb2Q+XG4gICAgICA8L3VybD5cbiAgICAgIDx1cmw+XG4gICAgICAgIDxsb2M+JHtVUkx9LyR7cGFyZW50UGFnZXNbMF0ubmFtZX0vJHtjaGlsZHJlblNlcnZpemlbM10uc2x1Z30vPC9sb2M+XG4gICAgICAgIDxsYXN0bW9kPiR7bGFzdE1vZGlmaWVkfTwvbGFzdG1vZD5cbiAgICAgIDwvdXJsPlxuICAgICAgPHVybD5cbiAgICAgICAgPGxvYz4ke1VSTH0vJHtwYXJlbnRQYWdlc1sxXS5uYW1lfS88L2xvYz5cbiAgICAgICAgPGxhc3Rtb2Q+JHtsYXN0TW9kaWZpZWR9PC9sYXN0bW9kPlxuICAgICAgPC91cmw+XG4gIFxuICAgICAgPC91cmxzZXQ+YFxuICBcbiAgICByZXMuZW5kKHhtbClcbiAgfSJdLCJuYW1lcyI6WyJVUkwiLCJkYXRlIiwiRGF0ZSIsImxhc3RNb2RpZmllZCIsInRvSlNPTiIsInBhcmVudFBhZ2VzIiwibmFtZSIsImNoaWxkcmVuU2Vydml6aSIsInNsdWciLCJoYW5kbGVyIiwicmVxIiwicmVzIiwic3RhdHVzQ29kZSIsInNldEhlYWRlciIsInhtbCIsImVuZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(api)/./pages/api/sitemap.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsitemap&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fsitemap.js&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
