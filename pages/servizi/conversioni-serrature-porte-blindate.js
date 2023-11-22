@@ -9,7 +9,7 @@ const ConversioniSerraturePage = () => {
     <Layout >
     <Head>
       <title>{siteTitle}</title>
-      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/conversioni-serrature-porte-blindate" />
+      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/conversioni-serrature-porte-blindate/" />
     </Head>
 
     <main className="page-conversioni">

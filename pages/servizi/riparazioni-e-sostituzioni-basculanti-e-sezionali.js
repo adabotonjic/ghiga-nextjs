@@ -11,7 +11,7 @@ const RiparazioniPage = () => {
     <Layout >
     <Head>
       <title>{siteTitle}</title>
-      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali" />
+      <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali/" />
     </Head>
     <main className="page-riparazioni">
       <div className="page-title-wrap mb-0 mb-xl-3">
