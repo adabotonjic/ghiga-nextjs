@@ -56,7 +56,7 @@ function Header() {
                   width='50'
                   height='50'
                   alt='Footer logo'
-                  src='/images/footer-logo.png'
+                  src='/images/footer-logo.webp'
                   loading="lazy"
               />
               </figure>
