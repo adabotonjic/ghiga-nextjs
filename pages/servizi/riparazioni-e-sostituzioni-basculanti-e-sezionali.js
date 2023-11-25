@@ -10,7 +10,7 @@ const RiparazioniPage = () => {
   return (
     <Layout >
     <Head>
-      <title>Riparazioni e sostituzioni basculanti e sezionali - Ghirardelli Nicola - Vicenza</title>
+      <title>Riparazioni e sostituzioni basculanti e sezionali - Ghirardelli Nicola</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali/" />
     </Head>
     <main className="page-riparazioni">

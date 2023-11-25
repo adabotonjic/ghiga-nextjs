@@ -10,7 +10,7 @@ const SostituzioniPage = () => {
   return (
     <Layout >
     <Head>
-      <title>Sostituzione serrature di tutti i tipi - - Ghirardelli Nicola - Vicenza</title>
+      <title>Sostituzione serrature di tutti i tipi - Ghirardelli Nicola</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/sostituzioni-serrature-di-tutti-i-tipi/" />
     </Head>
 

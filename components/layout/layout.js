@@ -13,12 +13,12 @@ export default function Layout({ children }) {
         <title>Ghirardelli Nicola - Porte blindate, Serrature, Basculanti</title>
         <meta
           name="description"
-          content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione."
+          content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione a Vicenza e provincia."
         />
         <meta property="og:url" content="https://www.ghirardellinicola.it/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
-        <meta property="og:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
+        <meta property="og:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione a Vicenza e provincia." />
         <meta property="og:image" content="https://www.ghirardellinicola.it/images/Furgone.webp" />
         <meta property="og:locale" content="it_IT" />
 
@@ -32,7 +32,7 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="ghirardellinicola.it" />
         <meta property="twitter:url" content="https://www.ghirardellinicola.it/" />
-        <meta name="twitter:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
+        <meta name="twitter:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione a Vicenza e provincia." />
         <meta name="twitter:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
         <meta name="twitter:image" content="https://www.ghirardellinicola.it/images/Furgone.webp" />
         <link rel="preconnect" href="https://www.google.com" />

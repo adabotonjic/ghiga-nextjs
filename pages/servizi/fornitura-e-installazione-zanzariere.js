@@ -11,7 +11,7 @@ const ZanzarierePage = () => {
   return (
     <Layout >
     <Head>
-      <title>Fornitura e Installazioni Zanzariere - Ghirardelli Nicola - Vicenza</title>
+      <title>Fornitura e Installazioni Zanzariere - Ghirardelli Nicola</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/fornitura-e-installazione-zanzariere/" />
     </Head>
     <main className="page-zanzariere">

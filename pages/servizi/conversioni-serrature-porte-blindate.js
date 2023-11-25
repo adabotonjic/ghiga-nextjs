@@ -8,7 +8,7 @@ const ConversioniSerraturePage = () => {
   return (
     <Layout >
     <Head>
-      <title>Conversioni serrature e porte blindate - Ghirardelli Nicola - Vicenza</title>
+      <title>Conversioni serrature e porte blindate - Ghirardelli Nicola</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/conversioni-serrature-porte-blindate/" />
     </Head>
 
