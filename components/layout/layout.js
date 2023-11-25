@@ -12,6 +12,7 @@ export default function Layout({ children }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <title>{siteTitle}</title>
         <meta
           name="description"
           content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione."
