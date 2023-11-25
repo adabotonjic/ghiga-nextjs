@@ -55,7 +55,7 @@ function Header() {
               className=''
                   width='50'
                   height='50'
-                  alt='Footer logo'
+                  alt='Icona logo'
                   src='/images/footer-logo.webp'
                   loading="lazy"
               />
