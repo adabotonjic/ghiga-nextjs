@@ -17,13 +17,10 @@ export default function Layout({ children }) {
         />
         <meta property="og:url" content="https://www.ghirardellinicola.it/" />
         <meta property="og:type" content="website" />
-        <meta name="og:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
+        <meta property="og:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
         <meta property="og:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
         <meta property="og:image" content="https://www.ghirardellinicola.it/images/Furgone.webp" />
         <meta property="og:locale" content="it_IT" />
-
-        
-
 
         <meta property="og:site_name" content="Ghirardelli Nicola" />
         <meta property="og:image" content="https://www.ghirardellinicola.it/images/Furgone.webp" />
@@ -33,9 +30,11 @@ export default function Layout({ children }) {
         <meta property="og:image:height" content="500" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="ghirardellinicola.it" />
+        <meta property="twitter:url" content="https://www.ghirardellinicola.it/" />
         <meta name="twitter:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
         <meta name="twitter:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
-
+        <meta name="twitter:image" content="https://www.ghirardellinicola.it/images/Furgone.webp" />
         <link rel="preconnect" href="https://www.google.com" />
         <link rel="preconnect" href="https://www.gstatic.com" crossOrigin />
         
