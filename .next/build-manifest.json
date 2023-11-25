@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/b9ObIWLMUsGq-5afkSUrL/_buildManifest.js",
-    "static/b9ObIWLMUsGq-5afkSUrL/_ssgManifest.js"
+    "static/rNKLreXjozE4q7v_NCXyc/_buildManifest.js",
+    "static/rNKLreXjozE4q7v_NCXyc/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -17,7 +17,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/index-c38e5d66ca1ad152.js"
     ],
     "/404": [
@@ -26,7 +26,7 @@
       "static/chunks/main-22b08db23b5214b2.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/404-ce9ef63ab1567c6e.js"
     ],
     "/_app": [
@@ -48,7 +48,7 @@
       "static/chunks/main-22b08db23b5214b2.js",
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/contatti-33d0374255bfda48.js"
     ],
     "/privacy-cookie-policy": [
@@ -58,7 +58,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/privacy-cookie-policy-59801630d42bc0e4.js"
     ],
     "/servizi": [
@@ -68,7 +68,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/servizi-03594f007a7d36ce.js"
     ],
     "/servizi/conversioni-serrature-porte-blindate": [
@@ -78,7 +78,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/servizi/conversioni-serrature-porte-blindate-911d85026455bcf9.js"
     ],
     "/servizi/fornitura-e-installazione-zanzariere": [
@@ -88,7 +88,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/servizi/fornitura-e-installazione-zanzariere-46a15faa9c2c602a.js"
     ],
     "/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali": [
@@ -98,7 +98,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali-7702c5ab5515c3c0.js"
     ],
     "/servizi/sostituzioni-serrature-di-tutti-i-tipi": [
@@ -108,7 +108,7 @@
       "static/css/cc6cbf47a7d40733.css",
       "static/chunks/906-fe7c47f3c5ccb208.js",
       "static/chunks/664-2def1dbac428073a.js",
-      "static/chunks/530-2ec9a05c3f72a15f.js",
+      "static/chunks/530-b03a03577337e3cc.js",
       "static/chunks/pages/servizi/sostituzioni-serrature-di-tutti-i-tipi-6b07be881714ccf9.js"
     ]
   },
