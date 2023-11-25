@@ -28,7 +28,7 @@ function Footer() {
               </div>
               <div className="col-sm-6">
               Cellulare: <a href="tel:+393486723145" className="text-undeline">+39 348 672 3145</a><br></br>
-              E-mail: <a href="mailto:info@ghirardellinicola" className='text-undeline pb-3'>info@ghirardellinicola.it</a><br></br>
+              E-mail: <a href="mailto:info@ghirardellinicola.it" className='text-undeline pb-3'>info@ghirardellinicola.it</a><br></br>
               WhatsApp: <a title="Scrivimi via WhatsApp" href="https://wa.me/+393486723145" target="_blank" rel="noreferrer">+39 348 672 3145</a><br></br>
               <br></br>
               <a href="/privacy-cookie-policy" title="Privacy e Cookie Policy">Privacy - Cookie Policy</a><br></br>

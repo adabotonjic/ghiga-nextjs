@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import TopHeader from './TopHeader/TopHeader';
 
-
+import React, { useEffect, useState } from 'react';
 
 
 function Header() {
@@ -27,14 +27,44 @@ function Header() {
 
   ];
 
+  const [scrollPos, setScrollPos] = useState(0);
+  const isScrolled = scrollPos > 200;
 
+  useEffect(() => {
+    function handleScroll() {
+      const currentScrollPos = window.scrollY;
+      setScrollPos(currentScrollPos);
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <header>
       <TopHeader />
-      <Navbar expand="sm" >
+      <Navbar expand="sm" className={`${isScrolled ? 'smaller' : ''}`}>
           <div className='container'>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-auto'/>
+            <div className="d-flex justify-content-between align-items-center w-100 d-sm-none">
+            <a href="/" title="Home" className='small-logo '>
+            <figure className='figure mb-0'>
+              <img
+              className=''
+                  width='50'
+                  height='50'
+                  alt='Footer logo'
+                  src='/images/footer-logo.png'
+                  loading="lazy"
+              />
+              </figure>
+              </a>
+              <div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className=''/>
+            </div>
+            </div>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto mt-2 mt-sm-0">
             <Nav.Link className="" href="/">{menuItems[0].text}</Nav.Link>

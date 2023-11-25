@@ -18,7 +18,7 @@ export default function Layout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://www.ghirarfellinicola.it/images/furgone.webp"
+          content="https://www.ghirardellinicola.it/images/furgone.webp"
         />
         <meta property="og:locale" content="it_IT" />
         <meta name="og:title" content={siteTitle} />

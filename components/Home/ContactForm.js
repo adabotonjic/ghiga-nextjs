@@ -16,6 +16,7 @@ function ContactForm() {
   const [message, setMessage] = useState("");
   const [privacy, setPrivacy] = useState(false);
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   {/*const [recaptchaToken, setRecaptchaToken] = useState(null);
   const recaptchaRef = useRef();*/}
@@ -41,7 +42,8 @@ function ContactForm() {
       setPrivacy(!privacy);
       //recaptchaRef.current.reset(); // Reset del reCAPTCHA
       //setRecaptchaToken(null);
-      alert("Form submitted");
+      setFormSubmitted(true);
+      //alert("Form submitted");
     
   };
 
@@ -143,6 +145,11 @@ function ContactForm() {
         Invia
       </button>
       </div>
+      {formSubmitted && (
+        <div className="successMessage">
+          Grazie, il tuo messaggio è stato inviato con successo.
+        </div>
+      )}
     </form>
   );
 
