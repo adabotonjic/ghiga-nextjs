@@ -45,7 +45,7 @@ function Footer() {
             <p id="copy">© 2015 - 2023 Tutti i diritti riservati</p>
           </div>
           <div className='col-md-6 text-md-end credits'>
-              <p><a href="https://www.linkedin.com/in/adila-botonjic/" target="_blank" rel="noreferrer">Credits</a></p>
+              <p><a href="https://www.antartika.it/author/ada-botonjic/" target="_blank" rel="noreferrer">Credits</a></p>
           </div>
         </div>
       </div>
