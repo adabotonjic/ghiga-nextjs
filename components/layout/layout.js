@@ -18,7 +18,7 @@ export default function Layout({ children }) {
         />
         <meta
           property="og:image"
-          content="/images/Furgone.webp"
+          content="/images/Furgone.jpg"
         />
         <meta property="og:locale" content="it_IT" />
         <meta name="og:title" content={siteTitle} />
@@ -26,9 +26,9 @@ export default function Layout({ children }) {
         <meta property="og:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
         <meta property="og:url" content="https://www.ghirardellinicola.it/" />
         <meta property="og:site_name" content="Ghirardelli Nicola" />
-        <meta property="og:image" content="/images/Furgone.webp" />
+        <meta property="og:image" content="/images/Furgone.jpg" />
         <meta property="og:image:alt" content="Furgone fabro Ghirardelli Nicola" />
-        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="697" />
         <meta property="og:image:height" content="500" />
         <meta property="og:image:type" content="image/jpeg" />
