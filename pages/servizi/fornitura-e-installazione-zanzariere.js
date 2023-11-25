@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../../components/layout/layout';
+import Layout from '../../components/layout/layout';
 import Link from 'next/link'; 
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Figure from 'react-bootstrap/Figure';
@@ -11,7 +11,7 @@ const ZanzarierePage = () => {
   return (
     <Layout >
     <Head>
-      <title>{siteTitle}</title>
+      <title>Fornitura e Installazioni Zanzariere - Ghirardelli Nicola - Vicenza</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/fornitura-e-installazione-zanzariere/" />
     </Head>
     <main className="page-zanzariere">

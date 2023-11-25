@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../../components/layout/layout';
+import Layout from '../../components/layout/layout';
 import Link from 'next/link'; 
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Figure from 'react-bootstrap/Figure';
@@ -10,7 +10,7 @@ const SostituzioniPage = () => {
   return (
     <Layout >
     <Head>
-      <title>{siteTitle}</title>
+      <title>Sostituzione serrature di tutti i tipi - - Ghirardelli Nicola - Vicenza</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/sostituzioni-serrature-di-tutti-i-tipi/" />
     </Head>
 

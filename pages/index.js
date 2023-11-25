@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 import {useEffect} from "react";
+import Layout from '../components/layout/layout';
 import 'bootstrap/dist/css/bootstrap.css';
-import Layout, { siteTitle } from '../components/layout/layout';
 import ServiziHome from '../components/Home/ServiziHome';
 import ChisonoHome from '../components/Home/ChisonoHome';
 import ContattiHome from '../components/Home/ContattiHome';
@@ -13,7 +13,6 @@ const Home = () => {
     return (
       <Layout home>
       <Head>
-        <title>{siteTitle}</title>
         <link rel="canonical" href="https://www.ghirardellinicola.it/" />
       </Head>
   

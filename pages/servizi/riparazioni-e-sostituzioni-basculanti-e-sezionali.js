@@ -1,6 +1,6 @@
 import Link from 'next/link'; 
 import Head from 'next/head';
-import Layout, { siteTitle } from '../../components/layout/layout';
+import Layout from '../../components/layout/layout';
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Figure from 'react-bootstrap/Figure';
 
@@ -10,7 +10,7 @@ const RiparazioniPage = () => {
   return (
     <Layout >
     <Head>
-      <title>{siteTitle}</title>
+      <title>Riparazioni e sostituzioni basculanti e sezionali - Ghirardelli Nicola - Vicenza</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/riparazioni-e-sostituzioni-basculanti-e-sezionali/" />
     </Head>
     <main className="page-riparazioni">

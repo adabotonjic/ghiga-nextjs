@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link'; 
-import Layout, { siteTitle } from '../components/layout/layout';
+import Layout from '../components/layout/layout';
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'; 
 
@@ -29,7 +29,7 @@ const PrivacyCookiePolicy = () => {
   return (
     <Layout>
     <Head>
-      <title>{siteTitle}</title>
+      <title>Privacy policy - Ghirardelli Nicola</title>
       <meta name="robots" content="noindex"></meta>
     </Head>
 

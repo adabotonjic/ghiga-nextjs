@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../../components/layout/layout';
+import Layout from '../../components/layout/layout';
 import Link from 'next/link'; 
 import Figure from 'react-bootstrap/Figure';
 import 'bootstrap/dist/css/bootstrap.css'; 
@@ -8,7 +8,7 @@ const ConversioniSerraturePage = () => {
   return (
     <Layout >
     <Head>
-      <title>{siteTitle}</title>
+      <title>Conversioni serrature e porte blindate - Ghirardelli Nicola - Vicenza</title>
       <link rel="canonical" href="https://www.ghirardellinicola.it/servizi/conversioni-serrature-porte-blindate/" />
     </Head>
 
